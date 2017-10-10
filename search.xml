@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[MySQL JSON 数据类型]]></title>
+    <url>%2F2017%2F09%2F30%2Fdatabase-mysql-2017-09-30-MySQL-JSON-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%2F</url>
+    <content type="text"><![CDATA[参考链接]]></content>
+      <categories>
+        <category>Database</category>
+        <category>MySQL</category>
+        <category>数据类型</category>
+      </categories>
+      <tags>
+        <tag>Database</tag>
+        <tag>MySQL</tag>
+        <tag>JSON 数据类型</tag>
+        <tag>MySQL JSON 数据类型</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Sublime Text 3 配置 Xdebug]]></title>
+    <url>%2F2017%2F09%2F30%2FSublime-Text-3-%E9%85%8D%E7%BD%AE-Xdebug%2F</url>
+    <content type="text"><![CDATA[安装 Package Controller 如果安装了可以跳过这一步 快捷键 Ctrl + ` 打开控制台（console） 复制下面代码运行 1import urllib.request,os,hashlib; h = &apos;df21e130d211cfc94d9b0905775a7c0f&apos; + &apos;1e3d39e33b79698005270310898eea76&apos;; pf = &apos;Package Control.sublime-package&apos;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( &apos;http://packagecontrol.io/&apos; + pf.replace(&apos; &apos;, &apos;%20&apos;)).read(); dh = hashlib.sha256(by).hexdigest(); print(&apos;Error validating download (got %s instead of %s), please try manual install&apos; % (dh, h)) if dh != h else open(os.path.join( ipp, pf), &apos;wb&apos; ).write(by) #安装 Xdebug Client]]></content>
+      <categories>
+        <category>Editor</category>
+        <category>Sublime Text 3</category>
+        <category>插件</category>
+        <category>PHP</category>
+      </categories>
+      <tags>
+        <tag>Editor</tag>
+        <tag>Sublime Text 3</tag>
+        <tag>Sublime Text 3 插件</tag>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Sublime Text 3 插件安装]]></title>
+    <url>%2F2017%2F09%2F30%2FSublime-Text-3-%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85%2F</url>
+    <content type="text"><![CDATA[安装 Package Controller 快捷键 Ctrl + ` 打开控制台（console） 复制下面代码运行 1import urllib.request,os,hashlib; h = &apos;df21e130d211cfc94d9b0905775a7c0f&apos; + &apos;1e3d39e33b79698005270310898eea76&apos;; pf = &apos;Package Control.sublime-package&apos;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( &apos;http://packagecontrol.io/&apos; + pf.replace(&apos; &apos;, &apos;%20&apos;)).read(); dh = hashlib.sha256(by).hexdigest(); print(&apos;Error validating download (got %s instead of %s), please try manual install&apos; % (dh, h)) if dh != h else open(os.path.join( ipp, pf), &apos;wb&apos; ).write(by) 已安装插件 参考插件 插件搜索 General SideBarEnhancements SFTP： 收费且停止更新，可考虑替换成FTPSync FTPSync BracketHighlighter: 1配置还没研究 All Autocomplete Terminal:有SideBarEnhancements就不需要了 ConvertToUTF8 SyncedSideBar:定位文件在左边文件树的位置 DocBlockr:快速生成注释 Compare Side-By-Side theme(主题样式) material theme HTML &amp; CSS CSS3: Replaces the built-in CSS support with a more up-to-date one. Includes cssnext support. Follow the instructions to make it work properly. 会和一些插件产生冲突。 Emmet: Allows you to write HTML very fast. You have to learn their way though. Color Highlighter 12配置还没研究http://facelessuser.github.io/BracketHighlighter/usage/ HTML-CSS-JS Prettify:代码格式化 Linter(代码检查) SublimeLinter PHP Xdebug Client 需要在服务器安装Xdebug SublimeCodeIntel 1234567&quot;PHP&quot;: &#123; &quot;php&quot;: &quot;D:/runtime_environment/xampp-7.0.13-1/php/php.exe&quot;, &quot;codeintel_scan_extra_dir&quot;: [], &quot;codeintel_scan_files_in_project&quot;: true, &quot;codeintel_max_recursive_dir_depth&quot;: 15, &quot;codeintel_scan_exclude_dir&quot;:[]&#125; Phpcs:PHP CodeSniffer, PHP Coding Standard Fixer, Linter and Mess Detector Support for Sublime Text 需要安装phpcs: 没看出作用composer global require “squizlabs/php_codesniffer=*” PhpDoc:好像没生效 phpfmt: 修改配置文件 “php_bin”:”D:/runtime_environment/xampp-7.0.13-1/php/php.exe”php7以下好像有问题快捷键 Ctrl + F11 Laravel Blade Highlighter 常见错误：Error loading syntax file “Packages/Laravel Blade Highlighter/blade.sublime-syntax”: Apparent recursion within a with_prototype action: 25000 context sanity limit hit移除插件CSS3即可,参考链接：https://github.com/Medalink/laravel-blade/issues/137 Laravel 5 Snippets]]></content>
+      <categories>
+        <category>Editor</category>
+        <category>Sublime Text 3</category>
+        <category>插件</category>
+      </categories>
+      <tags>
+        <tag>Editor</tag>
+        <tag>Sublime Text 3</tag>
+        <tag>Sublime Text 3 插件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[CentOS7 安装 XAMPP]]></title>
+    <url>%2F2017%2F07%2F09%2FCentOS7-%E5%AE%89%E8%A3%85-XAMPP%2F</url>
+    <content type="text"><![CDATA[XAMPP安装 打开下载地址 选择需要的版本，右键复制链接，链接格式如下 1https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/7.1.6/xampp-linux-x64-7.1.6-0-installer.run/download 将链接后面的/download去掉（不去掉下载下来,名字就会是download） 1https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/7.1.6/xampp-linux-x64-7.1.6-0-installer.run 下载XAMPP安装包进入Linux,下载XAMPP安装包 1wget https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/7.1.6/xampp-linux-x64-7.1.6-0-installer.run 设置XAMPP安装包的执行权限 1chmod +x xampp-linux-x64-7.1.6-0-installer.run 安装XAMPP 1./xampp-linux-x64-7.1.6-0-installer.run 选项如下 12345678910111213141516171819202122232425262728293031323334[root@localhost download]# ./xampp-linux-x64-7.1.6-0-installer.run----------------------------------------------------------------------------Welcome to the XAMPP Setup Wizard.----------------------------------------------------------------------------Select the components you want to install; clear the components you do not wantto install. Click Next when you are ready to continue.XAMPP Core Files [y/N] : yXAMPP Developer Files [Y/n] :yIs the selection above correct? [Y/n]: y----------------------------------------------------------------------------Installation DirectoryXAMPP will be installed to /opt/lamppPress [Enter] to continue:----------------------------------------------------------------------------Setup is now ready to begin installing XAMPP on your computer.Do you want to continue? [Y/n]: y----------------------------------------------------------------------------Please wait while Setup installs XAMPP on your computer. Installing 0% ______________ 50% ______________ 100% #########################################----------------------------------------------------------------------------Setup has finished installing XAMPP on your computer. XAMPP常用命令XAMPP目录XAMPP配置phpadmin 权限/opt/lampp/etc/extra/httpd-xampp.conf apache 别名/opt/lampp/etc/httpd.conf1234567891011######################################################## 没产生效果# carelessdragon 2017-07-09 beginAlias /php-server /var/www/php-server/public&lt;Directory &quot;/var/www/php-server/public&quot;&gt; Options Indexes FollowSymLinks ExecCGI Includes AllowOverride All Require all granted&lt;/Directory&gt;# carelessdragon 2017-07-09 end####################################################### /root /opt 好像有访问权限的问题 1234567php artisan key:generateThe bootstrap/cache directory must be present and writablephp artisan cache:clearfile_put_contents( /storage/framework/views/): failed to open stream: Permission denied 赋予项目所有文件的读写权限1chmod -R 777 ./]]></content>
+      <categories>
+        <category>CentOS</category>
+        <category>XAMPP</category>
+      </categories>
+      <tags>
+        <tag>CentOS</tag>
+        <tag>CentOS7</tag>
+        <tag>XAMPP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Android上的尺寸单位]]></title>
+    <url>%2F2017%2F07%2F02%2Fandroid-2017-07-02-dimension-units-on-android%2F</url>
+    <content type="text"><![CDATA[常见尺寸单位px pixel 即像素 即我们常说的分辨率 物理设备上真实的点 dp（dip） density-independent pixel One dp is always 1/160th of an inch on a device’s screen 1dp等于屏幕上的1/160英寸 无关于屏幕像素密度（dpi） 常用做Android的widget的尺寸 sp scale-independent pixel 基本等同于dp（和dp的比例一样）,但当手机默认字体改变时，sp大小也会等比例缩放 常用做Android的字体尺寸 pt,mm,in 不是所有的设备都正常支持 类似于dp,1pt等于屏幕上的1/72英寸 dpi dots per inch 像素密度 常见像素密度手机 mdpi = 160dpi, 1dp = 1px (baseline) ldpi = 120dpi, 1dp = 0.75px hdpi = 240dpi, 1dp = 1.5px xhdpi = 320dpi, 1dp = 2px xxhdpi = 480dpi, 1dp = 3px xxxhdpi = 640dpi, 1dp = 4px 实例计算 1英寸(in)=2.54厘米(cm) 1dp = 1/160 in = 0.15875mm 红米 note 4x 分辨率 1920px X 1080px 红米 note 4x 测量得长度约 10cm ≈ 4in 红米 note 4x 计算得像素密度 1920px / 4in = 480 dpi 红米 note 4x 为 xxhdpi 缩放比例为3，即1dp = 3px 红米 note 4x 为 640dp X 360dp 若在html上使用了如下代码，则css中1px为1dp，即分辨率为 640 X 3601&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt; 电脑 显示器一般常见96dpi（以前72dpi） 高分屏dpi未知 在Windows中选择分辨率就是在改变dpi，即虽然屏幕的分辨率没变，但是能显示的分辨率变小 html 页面中的px在PC端对应真实px即分辨率（Windows设置的分辨率）]]></content>
+      <categories>
+        <category>Android</category>
+        <category>Dimension Units</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+        <tag>Dimension Units</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Android Studio 安装 APK 到小米 MIUI 失败]]></title>
+    <url>%2F2017%2F07%2F02%2Fandroid-2017-07-02-android-studio-install-apk-in-miui-failed%2F</url>
+    <content type="text"><![CDATA[错误信息错误截图 解决方案方法一关闭 Android Studio 的 Instant Run。但就无法使用Instant Run，步骤下(Windows下)： 打开File 打开Settings... 打开Build, Execution, Deployment 打开Instant Run 关闭Enable Instant Run to hot swap code/resource changes on deploy (default enabled) 方法二关闭 MIUI 的 启用MIUI优化。但会导致原有的权限管理失效，一部分UI变化，及应用双开失效，步骤如下： 打开设置 打开更多设置 打开开发者选项 （若无法找到开发者选项，那么打开设置-&gt;关于手机，点击5次MIUI版本） 关闭启用MIUI优化]]></content>
+      <categories>
+        <category>Android</category>
+        <category>Android Studio</category>
+        <category>Issue</category>
+      </categories>
+      <tags>
+        <tag>Android Studio</tag>
+        <tag>MIUI</tag>
+        <tag>小米</tag>
+        <tag>Debug</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Markdown 教程]]></title>
+    <url>%2F2017%2F06%2F25%2Fmarkdown-tutorial%2F</url>
+    <content type="text"><![CDATA[123456789101112131415# 第一级标题## 第二级标题### 第三级标题#### 第四级标题##### 第五级标题###### 第六级标题第一级标题===第二级标题---分割线（`---`或`***`上面要有空行）---*** 第一级标题第二级标题第三级标题第四级标题第五级标题第六级标题第一级标题第二级标题分割线（---或***上面要有空行） 123456789101112131415161718192021~~删除~*粗体***斜体*****粗斜体***_斜体___斜体_____粗斜体___`内联代码（一般用来标记关键词）```如果关键词里有`,就用两个反引号包裹````还可以这样写` `` // 缩进（indent）一个制表符（tab）的代码块 var a = 0; // 缩进四个空格（space）的代码块 var b = 0;\`\`\`// 反引号包裹的代码块var c = 0;\`\`\` ~~删除~粗体斜体粗斜体斜体斜体粗斜体内联代码（一般用来标记关键词）如果关键词里有`,就用两个反引号包裹还可以这样写` 代码块1 // 缩进（indent）一个制表符（tab）的代码块，上下都需要空行 var a = 0; 代码块2 // 缩进四个空格（space）的代码块，上下都需要空行 var b = 0; 代码块312// 反引号包裹的代码块var c = 0; 表格 123|标题默认|标题左对齐|标题居中|标题右对齐||-|:--|:-:|-:||内容默认11111111|内容左对齐22222222|内容居中33333333|内容右对齐44444444| 标题默认 标题左对齐 标题居中 标题右对齐 内容默认11111111 内容左对齐22222222 内容居中33333333 内容右对齐44444444 转义字符 123456789101112\ 反斜线` 反引号* 星号_ 底线&#123;&#125; 花括号[] 方括号() 括弧# 井字号+ 加号- 减号. 英文句点! 惊叹号 \ 反斜线` 反引号* 星号_ 底线{} 花括号[] 方括号() 括弧# 井字号+ 加号- 减号. 英文句点! 惊叹号 12345678910111213文字链接：[百度](https://www.baidu.com)网站链接：&lt;https://www.baidu.com&gt;邮箱：&lt;carelessdragon@163.com&gt;图片链接：![百度 logo ](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png)相对路径：[主页](/)高阶链接1：[bing][]高阶链接2：[bing]高阶链接3：[必应][bing]一般变量写在文章最下面[bing]: https://cn.bing.com/ &quot;鼠标移到链接上，就能看到该信息。（可以不写）&quot; 文字链接：百度网站链接：https://www.baidu.com邮箱：&#99;&#97;&#x72;&#101;&#x6c;&#x65;&#x73;&#115;&#x64;&#x72;&#x61;&#103;&#111;&#110;&#64;&#49;&#54;&#x33;&#46;&#x63;&#x6f;&#x6d;图片链接： 相对路径：主页 高阶链接1：bing高阶链接2：bing高阶链接3：必应]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>Tutorial</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[使用 Hexo 搭建 Blog]]></title>
+    <url>%2F2017%2F06%2F25%2Fcreate-blog-with-hexo%2F</url>
+    <content type="text"><![CDATA[官方文档 概念 站点配置文件：_config.yml 主题配置文件：themes/next/_config.yml front matter1234567891011---title: 使用 Hexo 搭建 Blog categories: - blog - hexotags: - blog - hexodate: 2017-06-25 08:33:48description: 这是预览信息--- 常见问题标签和分类数量显示不对清理缓存重新生成即可（也有可能是_drafts文件夹下有文章）12hexo cleanhexo g 修改文章的预览信息在文章中的front matter加上description会将description中的内容显示在预览上，这种优先级最高，不太推荐。123456789title: 使用 Hexo 搭建 Blog categories: - blog - hexotags: - blog - hexodate: 2017-06-25 08:33:48description: 这是预览信息 在文章中加上&lt;!-- more --&gt;会将&lt;!-- more --&gt;之后的文章截断，官方推荐123456789## 常见问题### 标签和分类数量显示不对清理缓存重新生成即可```powershellhexo cleanhexo g 修改主题配置文件参数auto_excerpt会截断指定字符数后的文章，官方不推荐12345# Automatically Excerpt. Not recommend.# Please use &lt;!-- more --&gt; in the post to control excerpt accurately.auto_excerpt: enable: false length: 150 增加搜索服务使用Local Search启用本地搜索服务后，会生成public/search.xml文件，里边保存了所有文章的文本信息 安装hexo-generator-searchdb，在站点的根目录下执行以下命令： 1npm install hexo-generator-searchdb --save 编辑站点配置文件，新增以下内容到任意位置： 12345search: path: search.xml field: post format: html limit: 10000 编辑主题配置文件，启用本地搜索功能： 123# Local searchlocal_search: enable: true 统计服务使用Google 分析 注册Google分析账号 编辑主题配置文件，修改字段google_analytics，值设置成你的Google跟踪ID。跟踪ID通常是以UA-开头。 使用不蒜子统计 编辑主题配置文件中的busuanzi_count的配置项。 1234567891011121314151617# Show PV/UV of the website/page with busuanzi.# Get more information on http://ibruce.info/2015/04/04/busuanzi/busuanzi_count: # count values only if the other configs are false enable: false # custom uv span for the whole site site_uv: false site_uv_header: &lt;i class="fa fa-user"&gt;&lt;/i&gt; site_uv_footer: # custom pv span for the whole site site_pv: false site_pv_header: &lt;i class="fa fa-eye"&gt;&lt;/i&gt; site_pv_footer: # custom pv span for one page only page_pv: false page_pv_header: &lt;i class="fa fa-file-o"&gt;&lt;/i&gt; page_pv_footer: 修改后，当enable: true时，代表开启全局开关。若site_uv、site_pv、page_pv的值均为false时，不蒜子仅作记录而不会在页面上显示。 1234567891011121314151617# Show PV/UV of the website/page with busuanzi.# Get more information on http://ibruce.info/2015/04/04/busuanzi/busuanzi_count: # count values only if the other configs are false enable: true # custom uv span for the whole site site_uv: true site_uv_header: &lt;i class="fa fa-user"&gt;&lt;/i&gt;本站访客数 site_uv_footer: 人次 # custom pv span for the whole site site_pv: true site_pv_header: &lt;i class="fa fa-eye"&gt;&lt;/i&gt;本站总访问量 site_pv_footer: 次 # custom pv span for one page only page_pv: true page_pv_header: &lt;i class="fa fa-file-o"&gt;&lt;/i&gt;本文总阅读量 page_pv_footer: 次 使用阅读次数统计（LeanCloud)请查看为NexT主题添加文章阅读量统计功能]]></content>
+      <categories>
+        <category>Blog</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+</search>
