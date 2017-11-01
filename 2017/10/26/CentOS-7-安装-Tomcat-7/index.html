@@ -93,18 +93,18 @@
 
 
 
-<meta name="description" content="查看 Tomcat 的 rpm 包 1yum search tomcat  安装 Tomcat只安装 Tomcat 好像不能正常使用 1yum install tomcat tomcat-webapps tomcat-admin-webapps  修改配置文件修改 /usr/share/tomcat/config/tomcat.conf 文件 12345#####################">
+<meta name="description" content="查看 Tomcat 的 rpm 包 1yum search tomcat  安装 Tomcat只安装 Tomcat 好像不能正常使用 1yum install tomcat tomcat-webapps tomcat-admin-webapps">
 <meta name="keywords" content="CentOS 7 安装 Tomcat 7">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CentOS 7 安装 Tomcat 7">
 <meta property="og:url" content="http://yoursite.com/2017/10/26/CentOS-7-安装-Tomcat-7/index.html">
 <meta property="og:site_name" content="Carelessdragon&#39;s Note">
-<meta property="og:description" content="查看 Tomcat 的 rpm 包 1yum search tomcat  安装 Tomcat只安装 Tomcat 好像不能正常使用 1yum install tomcat tomcat-webapps tomcat-admin-webapps  修改配置文件修改 /usr/share/tomcat/config/tomcat.conf 文件 12345#####################">
+<meta property="og:description" content="查看 Tomcat 的 rpm 包 1yum search tomcat  安装 Tomcat只安装 Tomcat 好像不能正常使用 1yum install tomcat tomcat-webapps tomcat-admin-webapps">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-10-26T07:27:47.732Z">
+<meta property="og:updated_time" content="2017-11-01T03:40:09.047Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CentOS 7 安装 Tomcat 7">
-<meta name="twitter:description" content="查看 Tomcat 的 rpm 包 1yum search tomcat  安装 Tomcat只安装 Tomcat 好像不能正常使用 1yum install tomcat tomcat-webapps tomcat-admin-webapps  修改配置文件修改 /usr/share/tomcat/config/tomcat.conf 文件 12345#####################">
+<meta name="twitter:description" content="查看 Tomcat 的 rpm 包 1yum search tomcat  安装 Tomcat只安装 Tomcat 好像不能正常使用 1yum install tomcat tomcat-webapps tomcat-admin-webapps">
 
 
 
@@ -414,6 +414,9 @@
 <li><p>安装 Tomcat<br>只安装 Tomcat 好像不能正常使用</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yum install tomcat tomcat-webapps tomcat-admin-webapps</div></pre></td></tr></table></figure>
 </li>
+</ol>
+<a id="more"></a>
+<ol>
 <li><p>修改配置文件<br>修改 /usr/share/tomcat/config/tomcat.conf 文件</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">###########################</div><div class="line">#2017-10-26</div><div class="line">JAVA_OPTS=&quot;-Djava.security.egd=file:/dev/./urandom -Djava.awt.headless=true -Xmx256m -XX:MaxPermSize=128m -XX:+UseConcMarkSweepGC&quot;</div><div class="line">#2017-10-26</div><div class="line">###########################</div></pre></td></tr></table></figure>
 </li>
